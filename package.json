@@ -1,0 +1,25 @@
+{
+  "name": "angular-express-mongo-boilerplate",
+  "version": "1.0.0",
+  "description": "create angular integrated expressJs server",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "angular",
+    "mongoose"
+  ],
+  "bin": {
+    "express-angular": "./bin/index.js"
+  },
+  "author": "Vijeth Belle",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^13.2.0",
+    "express-generator": "^4.16.1",
+    "yargs": "^13.2.4"
+  }
+}
