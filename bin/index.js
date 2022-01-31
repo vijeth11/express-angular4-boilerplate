@@ -35,7 +35,7 @@ const appPath = path.join(ownPath, folderName);
 async function createOrRemoveFolder(path, remove=false){
     try{
         if(remove){
-            fs.rmSync(path,{ recursive: true, force: true });
+            await fs.promises.rm(path,{ recursive: true, force: true });
         }else{
             fs.mkdirSync(path);
         }
